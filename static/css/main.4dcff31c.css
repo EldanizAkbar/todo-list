@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(90deg, #3010ff, #6473ff);
+}
+.todo-app {
+  background: #161a2b;
+  border-radius: 10px;
+  height: auto;
+  min-height: 600px;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+}
+.int,
+h1 {
+  color: #fff;
+}
+.int {
+  background: transparent;
+  border: 2px solid #5d0cff;
+  border-radius: 5px 0 0 5px !important;
+  outline: none;
+}
+.int::-webkit-input-placeholder {
+  color: #e2e2e2;
+}
+.int::placeholder {
+  color: #e2e2e2;
+}
+.btn {
+  background: linear-gradient(90deg, #5d0cff, #9b00fa);
+  border-radius: 0 !important;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}
+.list-group-item {
+  word-wrap: break-word;
+  background: linear-gradient(90deg, #ff7614, #ff5411);
+  border-radius: 5px;
+  color: #fff;
+  padding-right: 40px;
+  position: relative;
+}
+.list-group-item:nth-child(4n + 1) {
+  background: linear-gradient(90deg, #5d0cff, #9b00fa);
+}
+.list-group-item:nth-child(4n + 2) {
+  background: linear-gradient(90deg, #ff0cf1, #fa0087);
+}
+.list-group-item:nth-child(4n + 3) {
+  background: linear-gradient(90deg, #149fff, #117aff);
+}
+.todo-item {
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/*# sourceMappingURL=main.4dcff31c.css.map*/
